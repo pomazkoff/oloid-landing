@@ -5,12 +5,12 @@ export function HeroVisual() {
       className="pointer-events-none absolute inset-0 overflow-hidden"
     >
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_20%_10%,#d7ebe6_0%,transparent_42%),radial-gradient(ellipse_at_85%_20%,#c5d8e8_0%,transparent_45%),linear-gradient(160deg,#eef4f8_0%,#dfeaf2_48%,#cfdfe9_100%)]" />
-      <div className="animate-drift absolute -right-[8%] top-[8%] h-[78%] w-[62%] min-w-[28rem]">
+      <div className="animate-drift absolute inset-x-0 top-[-6%] h-[48%] opacity-55 sm:inset-x-auto sm:-right-[8%] sm:top-[8%] sm:h-[78%] sm:w-[62%] sm:min-w-[28rem] sm:opacity-100">
         <svg
           viewBox="0 0 720 640"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="h-full w-full"
+          className="mx-auto h-full w-auto max-w-none sm:mx-0 sm:w-full"
         >
           <defs>
             <linearGradient id="panel" x1="120" y1="80" x2="620" y2="560" gradientUnits="userSpaceOnUse">

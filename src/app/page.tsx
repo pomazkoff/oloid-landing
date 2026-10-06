@@ -73,7 +73,7 @@ export default function Home() {
         <section className="relative min-h-[100svh] overflow-hidden">
           <HeroVisual />
           <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-16 pt-28 sm:px-8 sm:pb-20 lg:justify-center lg:pb-24">
-            <div className="max-w-xl">
+            <div className="max-w-xl rounded-2xl bg-gradient-to-t from-[#eef4f8]/95 via-[#eef4f8]/80 to-transparent p-1 sm:bg-none sm:p-0">
               <p className="animate-rise font-display text-5xl font-bold tracking-tight text-ink sm:text-6xl md:text-7xl">
                 OLOID
               </p>
