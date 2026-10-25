@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oloid-game.ru/sitemap.xml
